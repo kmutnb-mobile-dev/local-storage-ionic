@@ -1,0 +1,17 @@
+<ion-view title="Dashboard">
+  <ion-content class="padding">
+    <h1>{{token}}</h1>
+    <div class="list">
+
+      <div class="item item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="text" placeholder="Text" ng-model="token">
+        </label>
+        <button class="button button-small" ng-click="save(token)">
+          Save
+        </button>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>
